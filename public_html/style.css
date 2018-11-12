@@ -10,6 +10,9 @@
     width: 100%;
 }
 
+
+/*-------------------SLIDE 1 ------------------*/
+
 .slide-1 {
 background: url(images/moon.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -20,8 +23,6 @@ background: url(images/moon.png) no-repeat center center fixed;
   text-align:center;
 }
 
-
-/*-------------------SLIDE 1 ------------------*/
 .slide-1 small{
     font-size: 10px;
 }
@@ -72,4 +73,6 @@ background: url(images/moon.png) no-repeat center center fixed;
     margin-right: 2em;
     margin-left: 2em;
 }
+
+/*-------------------SLIDE 2 ------------------*/
 
