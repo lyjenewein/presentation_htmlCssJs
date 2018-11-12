@@ -5,11 +5,48 @@
     letter-spacing: 0.3em;
 }
 
+
+
 .slide{
     height: 100vh;
     width: 100%;
 }
 
+.header{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-right: 2em;
+    margin-left: 2em;
+    text-align: center;
+}
+
+.footer{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-right: 2em;
+    margin-left: 2em;
+    text-align: center;
+}
+
+.special{
+    letter-spacing: 0.5em;
+    font-family: 
+    'Sree Krushnadevaraya', serif;
+}
+
+.text{
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0em;
+}
+
+.soft{
+    font-family: 'Sree Krushnadevaraya', serif;
+    font-style: italic;
+    color: #686868;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+
+}
 
 /*-------------------SLIDE 1 ------------------*/
 
@@ -28,11 +65,7 @@ background: url(images/moon.png) no-repeat center center fixed;
 }
 
 .s1-header{
-    padding-top: 1em;
-    padding-bottom: 1em;
     border-bottom: #FFF18A 2px solid;
-    margin-right: 2em;
-    margin-left: 2em;
 }
 
 .s1-main{
@@ -64,15 +97,67 @@ background: url(images/moon.png) no-repeat center center fixed;
 }
 
 .s1-footer{
-    position: absolute;
-    bottom: 0;
-    width: 95%;
-    padding-bottom: 1em;
-    padding-top: 1em;
     border-top: 2px solid #FFF18A;
-    margin-right: 2em;
-    margin-left: 2em;
+    margin-top: 9em;
 }
 
 /*-------------------SLIDE 2 ------------------*/
 
+.slide-2{
+    background-color: #E8E8E8;
+}
+
+.slide-2 small{
+    font-size: 10px;
+}
+
+.s2-header{
+    border-bottom: 2px solid #282828;
+}
+
+.s2-main{
+    padding-top: 6em;
+    z-index: 200;
+}
+
+.grid-container {
+    display:grid;
+    position: relative;
+    grid-gap:1em;
+    margin: 1em;
+    margin-right: 20em;
+    z-index: 200;
+}
+
+.col-2 {
+    grid-template-columns: repeat(2,1fr);
+}
+
+.davidicke{
+    margin-right: 5em;
+    float: right;
+    width: 240px;
+}
+
+.s2-main h2{
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+
+.s2-footer{
+    border-top: 2px solid #282828;
+    margin-top: 9em;
+}
+
+.dot {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: #FFF18A;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 26vw;
+    margin-right: auto;
+    margin-top: 3em;
+}
