@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+}
+
+.slide{
+    height: 100vh;
+    width: 100%;
+}
+
+.slide-1 {
+background: url(images/moon.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #FFF18A;
+  text-align:center;
+}
+
+
+/*-------------------SLIDE 1 ------------------*/
+.slide-1 small{
+    font-size: 10px;
+}
+
+.s1-header{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: #FFF18A 2px solid;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.s1-main{
+    padding-top: 5em;
+}
+
+.s1-main h2{
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.s1-main p{
+    font-family: 'Sree Krushnadevaraya', serif;
+}
+
+.s1-subtitle{
+    color: white;
+    padding-bottom: 3em;
+}
+
+.s1-yellow{
+    background-color: #FFF18A;
+    width: 30em;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.4em;
+    letter-spacing: 1em;
+}
+
+.s1-footer{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-top: 2px solid #FFF18A;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
