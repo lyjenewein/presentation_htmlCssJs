@@ -33,6 +33,18 @@ small{
     width: 95vw;
 }
 
+.grid-container {
+    display:grid;
+    width: 100%;
+    position: relative;
+    grid-gap:1em;
+    z-index: 200;
+}
+
+.col-2 {
+    grid-template-columns: repeat(2,1fr);
+}
+
 .special{
     letter-spacing: 0.5em;
     font-family: 'Sree Krushnadevaraya', serif;
@@ -50,7 +62,7 @@ small{
     font-style: italic;
     color: #686868;
     letter-spacing: 0.1em;
-    font-size: 18px;
+    font-size: 2vw;
 }
 
 /*-------------------SLIDE 1 ------------------*/
@@ -85,7 +97,7 @@ background: url(images/moon.png) no-repeat center center fixed;
 }
 
 .s1-subtitle{
-    color: #EFEFEF;
+    color: #E8E8E8;
     padding-bottom: 3em;
 }
 
@@ -109,9 +121,7 @@ background: url(images/moon.png) no-repeat center center fixed;
     background-color: #E8E8E8;
     position: relative;
 }
-/*.slide-2 div{
-    border: 2px red solid;
-}*/
+
 
 .s2-header{
     border-bottom: 2px solid #282828;
@@ -120,18 +130,6 @@ background: url(images/moon.png) no-repeat center center fixed;
 .s2-main{
     padding-top: 11%;
     z-index: 200;
-}
-
-.grid-container {
-    display:grid;
-    width: 100%;
-    position: relative;
-    grid-gap:1em;
-    z-index: 200;
-}
-
-.col-2 {
-    grid-template-columns: repeat(2,1fr);
 }
 
 .davidicke{
@@ -144,7 +142,6 @@ background: url(images/moon.png) no-repeat center center fixed;
     font-size: 4vw;
     padding-bottom: 1em;
 }
-
 
 .s2-footer{
     border-top: 2px solid #282828;
@@ -209,3 +206,61 @@ background: url(images/moon.png) no-repeat center center fixed;
     border-top: 2px solid #E8E8E8;
 }
 
+
+/*-------------------SLIDE 4 ------------------*/
+
+.slide-4{
+    background-color: #e8e8e8;
+    position: relative;
+    color: #282828;
+    text-align: left;
+}
+
+
+.s4-header{
+    border-bottom: 2px solid #282828;
+}
+
+.caption{
+    position: absolute;
+    width: 65%;
+    background-color: #FFF18A;
+    color: #282828;
+    padding: 0.5em;
+    font-size: 3.5vw;
+    margin-top: 5vh;
+    margin-left: 35vh;
+    z-index: 300;
+}
+
+.s4{
+    height: 79vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 1vh;
+}
+
+.lizards4-img {
+    height: 100%;
+    width: auto;
+    position: relative;
+}
+
+.s4-list{
+    position: absolute;
+    z-index: 300;
+    margin-left: 32vw;
+    margin-top: 30vh;
+}
+
+.sl4-list{
+    font-size: 2vw;
+}
+
+ul{
+    padding-left: 5vw;
+}
+
+.s4-footer{
+    border-top: 2px solid #282828;
+}
