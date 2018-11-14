@@ -5,6 +5,10 @@
     letter-spacing: 0.3em;
 }
 
+a{
+    all: unset;
+}
+
 small{
     font-size: 1vw;
 }
@@ -269,11 +273,69 @@ ul{
 /*-------------------SLIDE 5 ------------------*/
 
 .slide-5{
-    background-color: #e8e8e8;
+    background-color: #282828;
     position: relative;
-    color: #282828;
+    color: #E8E8E8;
     text-align: left;
 }
+
+.s5-header{
+    border-bottom: 2px solid #E8E8E8;
+}
+
+.zucc{
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    width: 85vw;
+}
+
+.mark-container{
+    position: relative;
+}
+
+.mark-grid{
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+
+.mark{
+    height: 40vh;
+    width: auto;
+    border: 5px solid white;
+    position: absolute;
+}
+
+.mark1{
+    transform: rotate(17deg);
+}
+
+.mark2{
+    transform: rotate(-10deg);
+}
+
+.mark3{
+    transform: rotate(2deg);
+}
+
+.grid-item2{
+    padding-top: 10%;
+}
+
+.button-link{
+    background-color: #FFF18A;
+    color: #282828;
+    width: 70%;
+    margin:1em;
+    margin-top: -2.5vh;
+    padding: 2vh;
+    font-size: 2.8vw;
+    cursor: pointer;
+}
+
+.s5-footer{
+    border-top: 2px solid #E8E8E8;
+}
+
 
 /*-------------------SLIDE 6 ------------------*/
 
