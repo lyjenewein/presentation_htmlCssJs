@@ -264,3 +264,53 @@ ul{
 .s4-footer{
     border-top: 2px solid #282828;
 }
+
+
+/*-------------------SLIDE 5 ------------------*/
+
+.slide-5{
+    background-color: #e8e8e8;
+    position: relative;
+    color: #282828;
+    text-align: left;
+}
+
+/*-------------------SLIDE 6 ------------------*/
+
+.slide-6{
+    background-color: #E8E8E8;
+    position: relative;
+    color: #282828;
+    text-align: center;
+}
+
+.s6-header{
+    border-bottom: 2px solid #282828;
+}
+
+.s6-main{
+    padding-top: 20vh;
+}
+
+.s6-main p{
+    padding-top: 10vh;
+}
+
+.dark-block{
+    background-color: #282828;
+    color: #e8e8e8;
+    padding: 0.2em;
+    display: inline-block;
+    font-size: 4vw;
+}
+
+
+.s6-special{
+    letter-spacing: 0.5em;
+    font-family: 'Sree Krushnadevaraya', serif;
+    font-size: 3vw;
+}
+
+.s6-footer{
+    border-top: 2px solid #282828;
+}
