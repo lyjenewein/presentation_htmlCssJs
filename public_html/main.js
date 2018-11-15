@@ -10,3 +10,8 @@ function addGo() {
     element.classList.add("go");
 }
 
+
+function fadeIn() {
+    let element = document.getElementById("slide-1");
+    element.classList.add("go");
+}
