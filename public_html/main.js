@@ -15,3 +15,8 @@ function fadeIn() {
     let element = document.getElementById("slide-1");
     element.classList.add("go");
 }
+
+function flyUfo() {
+  document.getElementById("ufo").style.animation = "fly 15s ease";
+}
+
