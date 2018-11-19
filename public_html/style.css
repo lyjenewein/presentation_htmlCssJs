@@ -275,11 +275,9 @@ background: url(images/moon.png) no-repeat center center fixed;
     z-index: 300;
     margin-left: 32vw;
     margin-top: 30vh;
-}
-
-.sl4-list{
     font-size: 2vw;
 }
+
 
 ul{
     padding-left: 5vw;
@@ -774,6 +772,16 @@ ul{
       opacity: 0.5;
     }
   }
+
+
+  
+/*-------------------SLIDE 4 ------------------*/
+
+
+
+
+
+
 
 
 
