@@ -17,8 +17,17 @@ function fadeIn() {
 }
 
 function flyUfo() {
-  document.getElementById("ufo").style.animation = "fly 15s ease";
+  document.getElementById("ufo").style.animation = "fly 12s ease";
   document.getElementById("disappear").classList.add('disappear-animation');
+  document.getElementById("light").classList.add('blink-animation');
 }
 
-
+function pictureThrow(counter = 1){
+    let picture = document.getElementsByClassName("mark" + counter);
+    if (picture[0].classList.contains("picture-animation")){
+        let new_counter = counter + 1;
+		pictureThrow(new_counter);
+    } else {
+        picture[0].classList.add("picture-animation");
+    }
+}

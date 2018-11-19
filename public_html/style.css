@@ -160,7 +160,7 @@ background: url(images/moon.png) no-repeat center center fixed;
     z-index: 5;
 }
 .triangle-down{
-    margin-top: 17vh;
+    margin-top: 7%;
 }
 .s2-main h2{
     font-size: 4vw;
@@ -314,7 +314,7 @@ ul{
 }
 
 .mark-grid{
-    margin-left: 7vw;
+    margin-left: -35vw;
     margin-top: 5vh;
 }
 
@@ -412,60 +412,30 @@ ul{
 }
 
 @keyframes illtoleft {
-    0%{
-        left: 25vw;
-    }
-    50% {
-        left: 42vw;
-    }
-    100% {
-        left: 25vw;
-    }
+    0%{left: 25vw;}
+    50% {left: 42vw;}
+    100% {left: 25vw;}
 }
 
 @-moz-keyframes illtoleft {
-    0%{
-        left: 25vw;
-    }
-    50% {
-        left: 42vw;
-    }
-    100% {
-        left: 25vw;
-    }
+    0%{left: 25vw;}
+    50% {left: 42vw;}
+    100% {left: 25vw;}
 }
 @-webkit-keyframes illtoleft{
-    0%{
-        left: 25vw;
-    }
-    50% {
-        left: 42vw;
-    }
-    100% {
-        left: 25vw;
-    }
+    0%{left: 25vw;}
+    50% {left: 42vw;}
+    100% {left: 25vw;}
 }
 @-ms-keyframes illtoleft{
-    0%{
-        left: 25vw;
-    }
-    50% {
-        left: 42vw;
-    }
-    100% {
-        left: 25vw;
-    }
+    0%{left: 25vw;}
+    50% {left: 42vw;}
+    100% {left: 25vw;}
 }
 @-o-keyframes illtoleft{
-    0%{
-        left: 25vw;
-    }
-    50% {
-        left: 42vw;
-    }
-    100% {
-        left: 25vw;
-    }
+    0%{left: 25vw;}
+    50% {left: 42vw;}
+    100% {left: 25vw;}
 }
 
 
@@ -479,194 +449,83 @@ ul{
 }
 
 @keyframes illtoright {
-    0%{
-        left: 42vw;
-    }
-    50% {
-        left: 25vw;
-    }
-    100% {
-        left: 42vw;
-    }
+    0%{left: 42vw;}
+    50% {left: 25vw;}
+    100% {left: 42vw;}
 }
 
 
 @-moz-keyframes illtoright {
-    0%{
-        left: 42vw;
-    }
-    50% {
-        left: 25vw;
-    }
-    100% {
-        left: 42vw;
-    }
+    0%{left: 42vw;}
+    50% {left: 25vw;}
+    100% {left: 42vw;}
 }
 @-webkit-keyframes illtoright{
-    0%{
-        left: 42vw;
-    }
-    50% {
-        left: 25vw;
-    }
-    100% {
-        left: 42vw;
-    }
+    0%{left: 42vw;}
+    50% {left: 25vw;}
+    100% {left: 42vw;}
 }
 @-ms-keyframes illtoright{
-    0%{
-        left: 42vw;
-    }
-    50% {
-        left: 25vw;
-    }
-    100% {
-        left: 42vw;
-    }
+    0%{left: 42vw;}
+    50% {left: 25vw;}
+    100% {left: 42vw;}
 }
 @-o-keyframes illtoright{
-    0%{
-        left: 42vw;
-    }
-    50% {
-        left: 25vw;
-    }
-    100% {
-        left: 42vw;
-    }
+    0%{left: 42vw;}
+    50% {left: 25vw;}
+    100% {left: 42vw;}
 }
 
 /*-------------------SLIDE 3 ------------------*/
 
 .disappear-animation {
-    -webkit-animation: disappear 15s ease forwards; 
-    -moz-animation: disappear 15s ease forwards; 
-     -ms-animation: disappear 15s ease forwards;
-      -o-animation: disappear 15 ease forwards; 
-         animation: disappear 15s ease forwards;
+    -webkit-animation: disappear 12s ease forwards; 
+    -moz-animation: disappear 12s ease forwards; 
+     -ms-animation: disappear 12s ease forwards;
+      -o-animation: disappear 12s ease forwards; 
+         animation: disappear 12s ease forwards;
 }
 
 @keyframes disappear {
-    0%{
-        opacity: 1;
-    }
-    69%{
-        opacity: 1;
-    }
-    70%{
-        opacity: 0;
-    }
-    71%{
-        opacity: 0.8;
-    }
-    73%{
-        opacity: 0;
-    }
-    74% {
-        opacity: 0.5;
-    }
-    75% {
-        opacity: 0.3;
-    }
-    76%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 0;
-    }
+    0%{opacity: 1;}
+    69%{opacity: 1;}
+    70%{opacity: 0.3;}
+    71%{opacity: 0.5;}
+    74% {opacity: 0;}
+    100%{opacity: 0;}
 }
 
 @-moz-keyframes disappear {
-    0%{
-        opacity: 1;
-    }
-    70%{
-        opacity: 0;
-    }
-    71%{
-        opacity: 0.8;
-    }
-    73%{
-        opacity: 0;
-    }
-    74% {
-        opacity: 0.5;
-    }
-    75% {
-        opacity: 0.3;
-    }
-    76%{
-        opacity: 0;
-    }
+    0%{opacity: 1;}
+    69%{opacity: 1;}
+    70%{opacity: 0.3;}
+    71%{opacity: 0.5;}
+    74% {opacity: 0;}
+    100%{opacity: 0;}
 }
 @-webkit-keyframes disappear{
-    0%{
-        opacity: 1;
-    }
-    70%{
-        opacity: 0;
-    }
-    71%{
-        opacity: 0.8;
-    }
-    73%{
-        opacity: 0;
-    }
-    74% {
-        opacity: 0.5;
-    }
-    75% {
-        opacity: 0.3;
-    }
-    76%{
-        opacity: 0;
-    }
+    0%{opacity: 1;}
+    69%{opacity: 1;}
+    70%{opacity: 0.3;}
+    71%{opacity: 0.5;}
+    74% {opacity: 0;}
+    100%{opacity: 0;}
 }
 @-ms-keyframes disappear{
-    0%{
-        opacity: 1;
-    }
-    70%{
-        opacity: 0;
-    }
-    71%{
-        opacity: 0.8;
-    }
-    73%{
-        opacity: 0;
-    }
-    74% {
-        opacity: 0.5;
-    }
-    75% {
-        opacity: 0.3;
-    }
-    76%{
-        opacity: 0;
-    }
+    0%{opacity: 1;}
+    69%{opacity: 1;}
+    70%{opacity: 0.3;}
+    71%{opacity: 0.5;}
+    74% {opacity: 0;}
+    100%{opacity: 0;}
 }
 @-o-keyframes disappear{
-    0%{
-        opacity: 1;
-    }
-    70%{
-        opacity: 0;
-    }
-    71%{
-        opacity: 0.8;
-    }
-    73%{
-        opacity: 0;
-    }
-    74% {
-        opacity: 0.5;
-    }
-    75% {
-        opacity: 0.3;
-    }
-    76%{
-        opacity: 0;
-    }
+    0%{opacity: 1;}
+    69%{opacity: 1;}
+    70%{opacity: 0.3;}
+    71%{opacity: 0.5;}
+    74% {opacity: 0;}
+    100%{opacity: 0;}
 }
 
 
@@ -681,7 +540,7 @@ ul{
     width: 100vw;
     height: 100vh;
     margin: auto;
-    margin-left: -22vw;
+    margin-left: -25vw;
     overflow: hidden;
   }
   .spaceship-full {
@@ -694,7 +553,7 @@ ul{
     width: 250px;
     height: 300px;
     top: 50px;
-    transform: rotate(-10deg);
+    transform: rotate(15deg);
   }
   .spaceship-full .spaceship-container .spaceship {
     position: relative;
@@ -785,7 +644,8 @@ ul{
     left: 40px;
     perspective: 150px;
     -webkit-perspective: 150px;
-    animation: blink 15s infinite;
+    opacity: 0;
+ 
   }
   .light-perspective .light {
     position: absolute;
@@ -803,109 +663,53 @@ ul{
   
   
   @keyframes fly {
-    0% {
-      transform: rotate(5deg);
+    0% {transform: rotate(10deg);
       left: 0;
-      top: 40px;
-   }
-    5% {
-  
-      top: 20px;
-   }
-    10% {
-    
-      top: 20px;
-   }
-    15% {
-      transform: rotate(18deg);
-      top: 20px;
-   }
-    19% {
-      transform: rotate(-5deg);
-    }
-    20% {
-      top: 20px;
-   }
-    25% {
-   
+      top: 40px;}
+    5% {top: 10px;}
+    10% {top: 10px;}
+    15% {transform: rotate(18deg);
+        top: 10px;}
+    19% {transform: rotate(-5deg);}
+    20% {top: 10px;}
+    25% {left: 700px;
+        top: 10px;}
+    30% {left: 700px;
+      top: 10px;}
+    35% {transform: rotate(-15deg);
       left: 700px;
-      top: 20px;
-   }
-    30% {
-  
-      left: 700px;
-      top: 20px;
-   }
-    35% {
-      transform: rotate(-15deg);
-      left: 700px;
-      top: 40px;
-   }
-    45% {
-  
+      top: 30px;}
+    45% {left: 500px;
+      top: 30px;}
+    60% {left: 500px;
+      top: 30px;}
+    70% {transform: rotate(0deg);
       left: 500px;
-      top: 40px;
-   }
-    60% {
+      top: 30px;}
+    80% {left: 500px;
+      top: 30px;}
+    90% {transform: rotate(0deg);
       left: 500px;
-      top: 40px;
-   }
-    70% {
-      transform: rotate(0deg);
-      left: 500px;
-      top: 40px;
-   }
-    80% {
-      left: 500px;
-      top: 40px;
-   }
-    90% {
-      transform: rotate(0deg);
-      left: 500px;
-      top: 40px;
-   }
-    100% {
-      transform: rotate(-10deg);
+      top: 30px;}
+    100% {transform: rotate(-10deg);
       left: 0;
-      top: 40px;
-   }
+      top: 30px;}
   }
   
+  .blink-animation{
+    animation: blink 12s forwards;
+  }
   
   @keyframes blink {
-    0% {
-      opacity: 0.5m;
-    }
-    10% {
-        opacity: 0.5;
-      }
-    69% {
-      opacity: 0.5;
-    }
-    70% {
-      opacity: 0;
-    }
-    71% {
-      opacity: 0.8;
-    }
-    73% {
-      opacity: 0;
-    }
-    74% {
-      opacity: 0.3;
-    }
-    75% {
-      opacity: 0.5;
-    }
-    76% {
-      opacity: 0.5;
-    }
-    77% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 0.5;
-    }
+    0% {opacity: 0.5;}
+    69% {opacity: 0.5;}
+    70% {opacity: 0;}
+    71% {opacity: 0.8;}
+    73% {opacity: 0;}
+    74% {opacity: 0.3;}
+    75% {opacity: 0.5;}
+    99% {opacity: 0.5;}
+    100% {opacity: 0;}
   }
 
 
@@ -922,34 +726,35 @@ ul{
 
 /*-------------------SLIDE 5 ------------------*/
 
-.go {
-    -webkit-animation: mark 5s; 
-    animation: mark 5s;
-}
 
 
-@-webkit-keyframes mark {
-    from {left: 0px;}
-    to {left: 200px;}
+.picture-animation{
+    -webkit-animation: picture ease 1s forwards; 
+    animation: picture ease 1s forwards;
 }
 
-@keyframes mark {
-    from {left: 0px;}
-    to {left: 200px;}
+@keyframes picture {
+    from {left: -30vw;}
+    to {left: 45vw;}
 }
 
-@-moz-keyframes mark{
-    from {left: 0px;}
-    to {left: 200px;}
+@-webkit-keyframes picture {
+    from {left: -30vw;}
+    to {left: 10vw;}
 }
 
-@-ms-keyframes mark{
-    from {left: 0px;}
-    to {left: 200px;}
+@-moz-keyframes picture{
+    from {left: -30vw;}
+    to {left: 10vw;}
 }
-@-o-keyframes mark{
-    from {left: 0px;}
-    to {left: 200px;}
+
+@-ms-keyframes picture{
+    from {left: -30vw;}
+    to {left: 10vw;}
+}
+@-o-keyframes picture{
+    from {left: -30vw;}
+    to {left: 10vw;}
 }
 
 
