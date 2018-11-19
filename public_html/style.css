@@ -210,6 +210,7 @@ background: url(images/moon.png) no-repeat center center fixed;
     padding: 0.2em;
     display: inline-block;
     font-size: 4vw;
+    z-index: 1;
 }
 
 .yellow-block{
@@ -218,6 +219,7 @@ background: url(images/moon.png) no-repeat center center fixed;
     color: #282828;
     padding: 0.5em;
     font-size: 4.7vw;
+    z-index: 1;
 }
 
 .s3-special{
@@ -536,9 +538,142 @@ ul{
 
 /*-------------------SLIDE 3 ------------------*/
 
+#disappear{
+    -webkit-animation: disappear 15s ease; 
+    -moz-animation: disappear 15s ease; 
+     -ms-animation: disappear 15s ease;
+      -o-animation: disappear 15 ease; 
+         animation:disappear 15s ease;
+}
+
+@keyframes disappear {
+    0%{
+        opacity: 1;
+    }
+    69%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    71%{
+        opacity: 0.8;
+    }
+    73%{
+        opacity: 0;
+    }
+    74% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.3;
+    }
+    76%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes disappear {
+    0%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    71%{
+        opacity: 0.8;
+    }
+    73%{
+        opacity: 0;
+    }
+    74% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.3;
+    }
+    76%{
+        opacity: 0;
+    }
+}
+@-webkit-keyframes disappear{
+    0%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    71%{
+        opacity: 0.8;
+    }
+    73%{
+        opacity: 0;
+    }
+    74% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.3;
+    }
+    76%{
+        opacity: 0;
+    }
+}
+@-ms-keyframes disappear{
+    0%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    71%{
+        opacity: 0.8;
+    }
+    73%{
+        opacity: 0;
+    }
+    74% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.3;
+    }
+    76%{
+        opacity: 0;
+    }
+}
+@-o-keyframes disappear{
+    0%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    71%{
+        opacity: 0.8;
+    }
+    73%{
+        opacity: 0;
+    }
+    74% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.3;
+    }
+    76%{
+        opacity: 0;
+    }
+}
+
+
 /*-----UFO-----*/
 .ufo{
     position:absolute;
+    z-index: 2;
 }
   .animate-container {
     position: relative;
