@@ -538,12 +538,12 @@ ul{
 
 /*-------------------SLIDE 3 ------------------*/
 
-#disappear{
-    -webkit-animation: disappear 15s ease; 
-    -moz-animation: disappear 15s ease; 
-     -ms-animation: disappear 15s ease;
-      -o-animation: disappear 15 ease; 
-         animation:disappear 15s ease;
+.disappear-animation {
+    -webkit-animation: disappear 15s ease forwards; 
+    -moz-animation: disappear 15s ease forwards; 
+     -ms-animation: disappear 15s ease forwards;
+      -o-animation: disappear 15 ease forwards; 
+         animation: disappear 15s ease forwards;
 }
 
 @keyframes disappear {

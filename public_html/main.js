@@ -18,6 +18,7 @@ function fadeIn() {
 
 function flyUfo() {
   document.getElementById("ufo").style.animation = "fly 15s ease";
+  document.getElementById("disappear").classList.add('disappear-animation');
 }
 
 
