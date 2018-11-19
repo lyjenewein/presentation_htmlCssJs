@@ -77,6 +77,7 @@ small{
     position:absolute;
     bottom: 3.5em;
     right: 1em;
+    z-index: 1000;
 }
 
 /*-------------------SLIDE 1 ------------------*/
@@ -137,6 +138,7 @@ background: url(images/moon.png) no-repeat center center fixed;
 }
 
 
+
 .s2-header{
     border-bottom: 2px solid #282828;
 }
@@ -152,6 +154,14 @@ background: url(images/moon.png) no-repeat center center fixed;
     height: 45vh;
 }
 
+.triangle{
+    position:absolute;
+    left: 25vw;
+    z-index: 5;
+}
+.triangle-down{
+    margin-top: 17vh;
+}
 .s2-main h2{
     font-size: 4vw;
     padding-bottom: 1em;
@@ -163,8 +173,8 @@ background: url(images/moon.png) no-repeat center center fixed;
 
 .dot {
     position: absolute;
-    height: 35vw;
-    width: 35vw;
+    height: 32vw;
+    width: 32vw;
     background-color: #FFF18A;
     border-radius: 50%;
     z-index: 1;
@@ -338,7 +348,7 @@ ul{
     margin:1em;
     margin-top: -2.5vh;
     padding: 2vh;
-    font-size: 2.8vw;
+    font-size: 2.5vw;
     cursor: pointer;
 }
 
@@ -389,6 +399,142 @@ ul{
 
 /*==========================ANIMATIONS==================*/
 
+
+/*-------------------SLIDE 2 ------------------*/
+
+.triangle-down{
+    -webkit-animation: illtoleft 10s ease infinite; 
+    -moz-animation: illtoleft 10s ease infinite; 
+     -ms-animation: illtoleft 10s ease infinite;
+      -o-animation: illtoleft 10s ease infinite; 
+         animation: illtoleft 10s ease infinite;
+
+}
+
+@keyframes illtoleft {
+    0%{
+        left: 25vw;
+    }
+    50% {
+        left: 42vw;
+    }
+    100% {
+        left: 25vw;
+    }
+}
+
+@-moz-keyframes illtoleft {
+    0%{
+        left: 25vw;
+    }
+    50% {
+        left: 42vw;
+    }
+    100% {
+        left: 25vw;
+    }
+}
+@-webkit-keyframes illtoleft{
+    0%{
+        left: 25vw;
+    }
+    50% {
+        left: 42vw;
+    }
+    100% {
+        left: 25vw;
+    }
+}
+@-ms-keyframes illtoleft{
+    0%{
+        left: 25vw;
+    }
+    50% {
+        left: 42vw;
+    }
+    100% {
+        left: 25vw;
+    }
+}
+@-o-keyframes illtoleft{
+    0%{
+        left: 25vw;
+    }
+    50% {
+        left: 42vw;
+    }
+    100% {
+        left: 25vw;
+    }
+}
+
+
+.triangle-up{
+    -webkit-animation: illtoright 10s ease infinite; 
+    -moz-animation: illtoright 10s ease infinite; 
+     -ms-animation: illtoright 10s ease infinite;
+      -o-animation: illtoright 10s ease infinite; 
+         animation: illtoright 10s ease infinite;
+
+}
+
+@keyframes illtoright {
+    0%{
+        left: 42vw;
+    }
+    50% {
+        left: 25vw;
+    }
+    100% {
+        left: 42vw;
+    }
+}
+
+
+@-moz-keyframes illtoright {
+    0%{
+        left: 42vw;
+    }
+    50% {
+        left: 25vw;
+    }
+    100% {
+        left: 42vw;
+    }
+}
+@-webkit-keyframes illtoright{
+    0%{
+        left: 42vw;
+    }
+    50% {
+        left: 25vw;
+    }
+    100% {
+        left: 42vw;
+    }
+}
+@-ms-keyframes illtoright{
+    0%{
+        left: 42vw;
+    }
+    50% {
+        left: 25vw;
+    }
+    100% {
+        left: 42vw;
+    }
+}
+@-o-keyframes illtoright{
+    0%{
+        left: 42vw;
+    }
+    50% {
+        left: 25vw;
+    }
+    100% {
+        left: 42vw;
+    }
+}
 
 /*-------------------SLIDE 3 ------------------*/
 
@@ -595,7 +741,7 @@ ul{
   
   @keyframes blink {
     0% {
-      opacity: 0;
+      opacity: 0.5m;
     }
     10% {
         opacity: 0.5;
@@ -616,10 +762,10 @@ ul{
       opacity: 0.3;
     }
     75% {
-      opacity: 0;
+      opacity: 0.5;
     }
     76% {
-      opacity: 0.8;
+      opacity: 0.5;
     }
     77% {
       opacity: 0.5;
@@ -649,12 +795,28 @@ ul{
     to {left: 200px;}
 }
 
+@-moz-keyframes mark{
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@-ms-keyframes mark{
+    from {left: 0px;}
+    to {left: 200px;}
+}
+@-o-keyframes mark{
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+
+
 #texts1 {
 
-    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s; /* Firefox < 16 */
-     -ms-animation: fadein 5s; /* Internet Explorer */
-      -o-animation: fadein 5s; /* Opera < 12.1 */
+    -webkit-animation: fadein 10s; 
+    -moz-animation: fadein 10s; 
+     -ms-animation: fadein 10s;
+      -o-animation: fadein 10s; 
          animation: fadein 10s;
 }
 
