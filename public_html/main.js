@@ -31,3 +31,8 @@ function pictureThrow(counter = 1){
         picture[0].classList.add("picture-animation");
     }
 }
+
+function addAppear() {
+    let element = document.getElementById("appear");
+    element.classList.add("appear");
+}

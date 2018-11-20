@@ -135,6 +135,7 @@ background: url(images/moon.png) no-repeat center center fixed;
 .slide-2{
     background-color: #E8E8E8;
     position: relative;
+    
 }
 
 
@@ -399,6 +400,43 @@ ul{
 
 /*==========================ANIMATIONS==================*/
 
+/*-------------------SLIDE 1 ------------------*/
+
+
+#texts1 {
+
+    -webkit-animation: fadein 10s; 
+    -moz-animation: fadein 10s; 
+     -ms-animation: fadein 10s;
+      -o-animation: fadein 10s; 
+         animation: fadein 10s;
+}
+
+@keyframes fadein {
+    0% { opacity: 0;}
+    66% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@-moz-keyframes fadein {
+    0% { opacity: 0;}
+    66% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@-webkit-keyframes fadein {
+    0% { opacity: 0;}
+    66% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@-ms-keyframes fadein {
+    0% { opacity: 0;}
+    66% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@-o-keyframes fadein {
+    0% { opacity: 0;}
+    66% { opacity: 0;}
+    100% { opacity: 1;}
+}
 
 /*-------------------SLIDE 2 ------------------*/
 
@@ -474,6 +512,44 @@ ul{
     0%{left: 42vw;}
     50% {left: 25vw;}
     100% {left: 42vw;}
+}
+
+#appear{
+    opacity: 0;
+}
+
+.appear{
+    -webkit-animation: appear 2s; 
+    -moz-animation: appear 2s; 
+     -ms-animation: appear 2s;
+      -o-animation: appear 2s; 
+         animation: appear 3s forwards;
+         
+}
+
+@keyframes appear {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@-moz-keyframes appear {
+    0% { opacity: 0;}
+    66% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@-webkit-keyframes appear {
+    0% { opacity: 0;}
+    66% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@-ms-keyframes appear {
+    0% { opacity: 0;}
+    66% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@-o-keyframes appear {
+    0% { opacity: 0;}
+    66% { opacity: 0;}
+    100% { opacity: 1;}
 }
 
 /*-------------------SLIDE 3 ------------------*/
@@ -659,7 +735,6 @@ ul{
     background-repeat: no-repeat;
   }
   
-  /*=============keyframes=================*/
   
   
   @keyframes fly {
@@ -734,70 +809,114 @@ ul{
 }
 
 @keyframes picture {
-    from {left: -30vw;}
-    to {left: 45vw;}
+    0%{
+        left: -30vw;
+    }
+    30%{
+        top: 10vh;
+        left: 0vw;
+    }
+    100%{
+        top: 0;
+        left: 45vw;
+    }
 }
 
 @-webkit-keyframes picture {
-    from {left: -30vw;}
-    to {left: 10vw;}
+    0%{
+        left: -30vw;
+    }
+    30%{
+        top: 10vh;
+        left: 0vw;
+    }
+    100%{
+        top: 0;
+        left: 45vw;
+    }
 }
 
 @-moz-keyframes picture{
-    from {left: -30vw;}
-    to {left: 10vw;}
+    0%{
+        left: -30vw;
+    }
+    30%{
+        top: 10vh;
+        left: 0vw;
+    }
+    100%{
+        top: 0;
+        left: 45vw;
+    }
 }
 
 @-ms-keyframes picture{
-    from {left: -30vw;}
-    to {left: 10vw;}
+    0%{
+        left: -30vw;
+    }
+    30%{
+        top: 10vh;
+        left: 0vw;
+    }
+    100%{
+        top: 0;
+        left: 45vw;
+    }
 }
 @-o-keyframes picture{
-    from {left: -30vw;}
-    to {left: 10vw;}
+    0%{
+        left: -30vw;
+    }
+    30%{
+        top: 10vh;
+        left: 0vw;
+    }
+    100%{
+        top: 0;
+        left: 45vw;
+    }
+}
+
+/*-------------------SLIDE 6 ------------------*/
+
+
+@keyframes lizard {
+    0%{
+    }
+    10%{
+
+    }
+    20%{
+
+    }
+    30%{
+
+    }
+    40%{
+
+    }
+    50%{
+
+    }
+    60%{
+
+    }
+    70%{
+
+    }
+    80%{
+
+    }
+    90%{
+
+    }
+    100%{
+
+    }
 }
 
 
 
-#texts1 {
-
-    -webkit-animation: fadein 10s; 
-    -moz-animation: fadein 10s; 
-     -ms-animation: fadein 10s;
-      -o-animation: fadein 10s; 
-         animation: fadein 10s;
-}
-
-@keyframes fadein {
-    0% { opacity: 0;}
-    66% { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@-moz-keyframes fadein {
-    0% { opacity: 0;}
-    66% { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@-webkit-keyframes fadein {
-    0% { opacity: 0;}
-    66% { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@-ms-keyframes fadein {
-    0% { opacity: 0;}
-    66% { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    0% { opacity: 0;}
-    66% { opacity: 0;}
-    100% { opacity: 1;}
-}
 
 
 /*-------------------bounce---------------------*/
